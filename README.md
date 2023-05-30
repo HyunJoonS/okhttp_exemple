@@ -4,7 +4,11 @@ Example of using okhttp for openAPI
 okhttp를 이용하여 외부 API와 통신하는 예제 입니다.
 
 1. build.gradle에 다음을 추가합니다.
+
+
  	implementation("com.squareup.okhttp3:okhttp:4.9.1")
+	
+	
 	implementation ("com.google.code.gson:gson:2.8.6")
   
 2.application-API-KEY.properties 파일에 국세청 홈페이지에서 발급받은 API를 입력합니다.
